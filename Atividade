@@ -518,3 +518,443 @@ WHERE OrderDetailID < 20
 OR Quantity > 30
 ORDER BY OrderID;
 
+Atividade 41:
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderID IN (50, 100, 150)
+ORDER BY Quantity ASC;
+
+Atividade 42:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE  ProductID IN (2, 4, 6, 8)
+ORDER BY OrderDetailID ASC;
+
+Atividade 43:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE  Quantity IN (10, 20, 30)
+ORDER BY OrderID ASC;
+
+Atividade 44:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderDetailID IN (5, 10, 15, 20)
+ORDER BY Quantity ASC;
+
+Atividade 45:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderID IN (200, 300, 400)
+ORDER BY ProductID ASC;
+
+Atividade 46:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE ProductID IN (12, 14, 16)
+ORDER BY Quantity ASC;
+
+Atividade 47:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE Quantity IN (25, 50, 75, 100)
+ORDER BY OrderID ASC;
+
+
+Atividade 48:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderDetailID IN (100, 200, 300)
+ORDER BY ProductID ASC;
+
+Atividade 49:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE ProductID IN (5, 10, 15, 20)
+ORDER BY Quantity ASC;
+
+Atividade 50:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE Quantity IN (1, 2, 3, 4, 5)
+ORDER BY OrderID ASC;
+
+Atividade 51:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderID IN (250, 350, 450)
+ORDER BY Quantity ASC;
+
+Atividade 52:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE ProductID IN (11, 21, 31)
+ORDER BY OrderDetailID ASC;
+
+Atividade 53:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE Quantity IN (40, 50, 60)
+ORDER BY OrderID ASC;
+
+Atividade 54:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderDetailID IN (150, 250, 350)
+ORDER BY ProductID ASC;
+
+Atividade 55:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE ProductID IN (7, 14, 21)
+ORDER BY Quantity ASC;
+
+Atividade 56:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderID IN (50, 100, 200)
+ORDER BY OrderDetailID ASC
+
+Atividade 57:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE Quantity IN (20, 25, 30)
+ORDER BY ProductID ASC;
+
+Atividade 58:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderDetailID IN (10, 20, 30)
+ORDER BY Quantity ASC;
+
+
+Atividade 59:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderID IN (100, 200, 300)
+ORDER BY Quantity ASC;
+
+Atividade 60:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE Quantity IN (5, 10, 15)
+ORDER BY OrderID ASC;
+
+Atividade 61:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderDetailID IN (25, 50, 75, 100)
+ORDER BY Quantity ASC;
+
+Atividade 62:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE ProductID IN (9, 18, 27)
+ORDER BY OrderID ASC;
+
+Atividade 63:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE Quantity IN (12, 14, 16)
+ORDER BY ProductID ASC;
+
+Atividade 64:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderID IN (400, 500, 600)
+ORDER BY Quantity ASC;
+
+Atividade 65:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderDetailID IN (20, 40, 60, 80)
+ORDER BY OrderID ASC;
+
+Atividade 66:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE ProductID IN (5, 10, 20)
+ORDER BY Quantity ASC;
+
+Atividade 67:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE Quantity IN (8, 16, 24, 32)
+ORDER BY OrderDetailID ASC;
+
+Atividade 68:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderID IN (300, 400, 500)
+ORDER BY ProductID ASC;
+
+Atividade 69:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE Quantity IN (15, 30, 45)
+ORDER BY OrderID ASC;
+
+Atividade 70:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderDetailID IN (50, 150, 250)
+ORDER BY Quantity ASC;
+
+Atividade 71:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderDetailID IN (100, 200, 300, 400)
+ORDER BY Quantity ASC;
+
+Atividade 72:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE ProductID IN (10, 20, 30, 40)
+ORDER BY OrderID ASC;
+
+Atividade 73:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE Quantity IN (5, 10, 15, 20)
+ORDER BY ProductID ASC;
+
+Atividade 74:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderID IN (50, 150, 250, 350)
+ORDER BY Quantity ASC;
+
+Atividade 75:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderDetailID IN (1, 3, 5, 7)
+ORDER BY OrderID ASC;
+
+Atividade 76:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE ProductID IN (13, 26, 39)
+ORDER BY Quantity ASC;
+
+Atividade 77:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE Quantity IN (22, 44, 66, 88)
+ORDER BY OrderDetailID ASC;
+
+Atividade 78:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderID IN (90, 180, 270)
+ORDER BY ProductID ASC;
+
+Atividade 79:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE Quantity IN (8, 16, 24, 32)
+ORDER BY OrderID ASC;
+
+Atividade 80:
+
+SELECT
+    OrderDetailID,
+    OrderID,
+    ProductID,
+    Quantity
+FROM OrderDetails
+WHERE OrderDetailID IN (101, 201, 301, 401)
+ORDER BY Quantity ASC;
